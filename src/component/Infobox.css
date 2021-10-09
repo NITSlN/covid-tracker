@@ -1,0 +1,47 @@
+.infoBox{
+    flex:1;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.infoBox:not(:last-child){
+    margin-right: 25px;
+}
+.infoBox__cases {
+    color: #cc1034;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+  .cases{
+    border: 2px solid #ff0000;
+    background-color: rgba(255, 0, 0, 0.075)!important;
+  }
+  .recovered{
+    border: 2px solid rgb(54, 255, 47);
+    background-color: rgba(54, 255, 47, 0.13)!important;
+
+  }
+  .deaths{
+    border: 2px solid red;
+    background-color: rgba(248, 133, 133, 0.616)!important;
+    
+  }
+  .red{
+    color: rgb(224, 15, 15);
+  }
+  .green{
+    color: rgb(54, 255, 47);
+  }
+  
+ /* !important is used to overwrite the previous styling here its overwriting material ui's styles */
+  .infoBox__total {
+    color: #6c757d;
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    margin-top: 15px !important;
+  }
+
+
+
+
